@@ -11,7 +11,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="carbonfibers">Fibra de Carbono</string>
+    <string name="martysplace">Marty\'s Place</string>
     <string name="system_category">Sistema</string>
     <string name="status_bar_category">Barra de estatus</string>
     <string name="lock_screen_category">Tela de Bloqueio</string>
@@ -41,9 +41,9 @@
     <string name="gestures_main_category_summary">Gestos baseados em opções e ações</string>
     <string name="privacy_main_category_summary">Configurações da coleção de estatísticas variadas</string>
     <!-- Dialog -->
-    <string name="carbonfibers_dialog_title">Ajude-nos a ajudar você!</string>
-    <string name="carbonfibers_dialog_message">Infelizmente não somos magos!\n\nSe você encontrou um erro, por favor, envie um ticket no Jira ou entre em contato com um desenvolvedor da CarbonROM com os seguintes dados:\n\n1. Blame kwotopus\n2. Logcat e/ou last_kmsg\n3. Kernel e modos usados\n4. Informações diversas\n\nSe você não conseguir reportar essas informações, não espere que o problema seja resolvido.</string>
-    <string name="carbonfibers_dialog_toast">Leia tudo!</string>
+    <string name="martysplace_dialog_title">Ajude-nos a ajudar você!</string>
+    <string name="martysplace_dialog_message">Infelizmente não somos magos!\n\nSe você encontrou um erro, por favor, envie um ticket no Jira ou entre em contato com um desenvolvedor da CarbonROM com os seguintes dados:\n\n1. Blame kwotopus\n2. Logcat e/ou last_kmsg\n3. Kernel e modos usados\n4. Informações diversas\n\nSe você não conseguir reportar essas informações, não espere que o problema seja resolvido.</string>
+    <string name="martysplace_dialog_toast">Leia tudo!</string>
     <!-- Anonymous Statistics #CM -->
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
     <string name="anonymous_statistics_title">Estatísticas de CarbonROM</string>

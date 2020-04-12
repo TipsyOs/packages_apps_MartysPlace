@@ -34,7 +34,7 @@
 
         <Preference
             android:key="status_bar_icons"
-            android:fragment="org.carbonrom.carbonfibers.fragments.status_bar.StatusBarIcons"
+            android:fragment="org.tipsy.martysplace.fragments.status_bar.StatusBarIcons"
             android:title="@string/status_bar_icons_title"
             android:summary="@string/status_bar_icons_title_summary" />
 
@@ -65,7 +65,7 @@
             android:key="batterybar_settings"
             android:title="@string/battery_bar_title"
             android:summary="@string/battery_bar_summary"
-            android:fragment="org.carbonrom.carbonfibers.fragments.status_bar.BatterybarSettings" />
+            android:fragment="org.tipsy.martysplace.fragments.status_bar.BatterybarSettings" />
 
     </PreferenceCategory>
 
@@ -75,7 +75,7 @@
 
         <Preference
             android:key="traffic"
-            android:fragment="org.carbonrom.carbonfibers.fragments.traffic.Traffic"
+            android:fragment="org.tipsy.martysplace.fragments.traffic.Traffic"
             android:title="@string/traffic_title"
             android:summary="@string/traffic_title_summary" />
 
@@ -94,7 +94,7 @@
 
         <Preference
             android:key="qs_brightness"
-            android:fragment="org.carbonrom.carbonfibers.fragments.status_bar.QSBrightness"
+            android:fragment="org.tipsy.martysplace.fragments.status_bar.QSBrightness"
             android:title="@string/qs_brightness_title"
             android:summary="@string/qs_brightness_title_summary" />
 
@@ -107,7 +107,7 @@
 
         <Preference
             android:key="status_bar_clock"
-            android:fragment="org.carbonrom.carbonfibers.fragments.status_bar.StatusBarClock"
+            android:fragment="org.tipsy.martysplace.fragments.status_bar.StatusBarClock"
             android:title="@string/status_bar_clock_title"
         android:summary="@string/status_bar_clock_title_summary" />
 
