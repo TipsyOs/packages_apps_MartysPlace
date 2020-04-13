@@ -44,23 +44,7 @@
     <string name="martysplace_dialog_title">Ajude-nos a ajudar você!</string>
     <string name="martysplace_dialog_message">Infelizmente não somos magos!\n\nSe você encontrou um erro, por favor, envie um ticket no Jira ou entre em contato com um desenvolvedor da CarbonROM com os seguintes dados:\n\n1. Blame kwotopus\n2. Logcat e/ou last_kmsg\n3. Kernel e modos usados\n4. Informações diversas\n\nSe você não conseguir reportar essas informações, não espere que o problema seja resolvido.</string>
     <string name="martysplace_dialog_toast">Leia tudo!</string>
-    <!-- Anonymous Statistics #CM -->
-    <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">Estatísticas de CarbonROM</string>
-    <string name="anonymous_statistics_summary">Ajudar a fazer CarbonROM melhor opção para o relatório de estatísticas anônimas</string>
-    <string name="anonymous_statistics_warning_title">Sobre</string>
-    <string name="anonymous_statistics_warning">Optando por ter estatísticas CarbonROM permitirá que dados não-pessoais ser enviado para os desenvolvedores da CarbonROM para rastrear instalações únicas através de dispositivos. As informações apresentadas incluem um identificador exclusivo, que não compromete a sua privacidade e dados pessoais. Os dados são enviados durante cada inicialização. Para ver um exemplo dos dados que são enviados, toque na visualização de dados.</string>
-    <string name="enable_reporting_title">Ativar geração de relatório</string>
-    <string name="preview_data_title">Visualizar Atualização</string>
-    <string name="view_stats_title">Ver estatísticas</string>
-    <string name="anonymous_learn_more">Mais informações</string>
-    <!-- Anonymous Statistics - Preview -->
-    <string name="preview_id_title">ID Único</string>
-    <string name="preview_device_title">Dispositivo</string>
-    <string name="preview_version_title">Versão</string>
-    <string name="preview_country_title">País</string>
-    <string name="preview_carrier_title">Operadora</string>
-    <string name="stats_collection_title">Habilitar coleção de estatísticas</string>
+
     <!-- Smart Pixels -->
     <string name="smart_pixels_title">Pixels Inteligentes</string>
     <string name="smart_pixels_summary">Desligue os pixels para reduzir o consumo de energia</string>
