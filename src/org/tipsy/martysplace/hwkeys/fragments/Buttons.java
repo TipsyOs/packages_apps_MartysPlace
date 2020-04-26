@@ -126,7 +126,7 @@ public class Buttons extends ActionFragment implements OnPreferenceChangeListene
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.CARBONFIBERS;
+        return MetricsEvent.TIPSY;
     }
 
     @Override

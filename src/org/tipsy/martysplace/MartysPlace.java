@@ -81,7 +81,7 @@ public class MartysPlace extends SettingsPreferenceFragment implements Indexable
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.CARBONFIBERS;
+        return MetricsEvent.TIPSY;
     }
 
     @Override

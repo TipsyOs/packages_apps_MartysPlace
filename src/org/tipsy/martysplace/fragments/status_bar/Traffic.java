@@ -117,6 +117,6 @@ public class Traffic extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.CARBONFIBERS;
+        return MetricsProto.MetricsEvent.TIPSY;
     }
 }

@@ -59,7 +59,7 @@ public class Gestures extends GestureSettings implements Indexable {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.CARBONFIBERS;
+        return MetricsEvent.TIPSY;
     }
 
     @Override
