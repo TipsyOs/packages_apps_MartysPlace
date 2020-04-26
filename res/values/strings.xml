@@ -316,4 +316,18 @@
     <string name="audio_panel_view_voice_title">Voice</string>
     <string name="audio_panel_view_bt_sco_title">Bluetooth</string>
 
+    <!-- Battery light  -->
+    <string name="battery_charging_category">Charging</string>
+    <string name="battery_light_cat_title">Battery LED lights</string>
+    <string name="battery_light_title">Custom battery LED</string>
+    <string name="battery_light_summary">Set custom colors and options for battery LED</string>
+    <string name="battery_light_settings">Battery charging light</string>
+    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
+    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
+    <string name="battery_light_cat">Battery led optins and colors</string>
+    <string name="battery_light_low_color">Low battery</string>
+    <string name="battery_light_medium_color">Medium battery</string>
+    <string name="battery_light_full_color">Almost full battery</string>
+    <string name="battery_light_reallyfull_color">Full (100) battery</string>
+
 </resources>

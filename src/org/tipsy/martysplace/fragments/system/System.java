@@ -70,6 +70,8 @@ public class System extends CustomSettingsPreferenceFragment implements Preferen
 
     private AppMultiSelectListPreference mAspectRatioAppsSelect;
     private ScrollAppsViewPreference mAspectRatioApps;
+    private PreferenceCategory mLedsCategory;
+    private Preference mChargingLeds;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -116,6 +118,19 @@ public class System extends CustomSettingsPreferenceFragment implements Preferen
         }
         mAspectRatioAppsSelect.setValues(valuesList);
         mAspectRatioAppsSelect.setOnPreferenceChangeListener(this);
+        }
+
+        PreferenceScreen prefSet = getPreferenceScreen();
+
+        mLedsCategory = (PreferenceCategory) findPreference("battery_charging_category");
+        mChargingLeds = (Preference) findPreference("charging_light");
+        if (mChargingLeds != null
+                && !getResources().getBoolean(
+                        com.android.internal.R.bool.config_intrusiveBatteryLed)) {
+            mLedsCategory.removePreference(mChargingLeds);
+        }
+        if (mChargingLeds == null) {
+            prefSet.removePreference(mLedsCategory);
         }
     }
 
