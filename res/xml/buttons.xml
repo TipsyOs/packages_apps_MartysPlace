@@ -41,7 +41,12 @@
     <PreferenceCategory
         android:key="button_keys"
         android:title="@string/buttons_hardware_category">
-
+ 
+    <Preference
+        android:key="buttons"
+        android:fragment="org.tipsy.martysplace.hwkeys.fragments.Buttons"
+        android:title="@string/buttons_title" />
+	
         <com.android.settings.carbon.SecureSettingListPreference
             android:key="torch_power_button_gesture"
             android:title="@string/torch_power_button_gesture_title"
