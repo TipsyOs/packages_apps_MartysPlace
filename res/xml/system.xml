@@ -58,6 +58,17 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:title="@string/sensor_category"
+        android:key="sensors_category"
+        settings:allowDividerAbove="true" >
+
+        <Preference
+            android:key="pocket_mode"
+            android:fragment="org.tipsy.martysplace.fragments.system.PocketMode"
+            android:title="@string/pocket_mode_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/power_save_category"
         android:key="system_power_save_preference_category"
         settings:allowDividerAbove="true" >
