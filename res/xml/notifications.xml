@@ -35,4 +35,36 @@
         settings:units="sec"
         android:persistent="false" />
 
+    <PreferenceCategory
+            android:title="@string/heads_up_stoplist_title"
+            android:key="stoplist_applications" >
+
+        <org.tipsy.martysplace.preference.AppMultiSelectListPreference
+            android:key="add_stoplist_packages"
+            android:title="@string/add_heads_up_package"
+            android:summary="@string/add_heads_up_stoplist_summary"
+            android:persistent="false" />
+        <org.tipsy.martysplace.preference.ScrollAppsViewPreference
+            android:key="stoplist_apps_list_scroller"
+            android:persistent="false"
+            android:selectable="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@string/heads_up_blacklist_title"
+            android:key="blacklist_applications" >
+
+        <org.tipsy.martysplace.preference.AppMultiSelectListPreference
+            android:key="add_blacklist_packages"
+            android:title="@string/add_heads_up_package"
+            android:summary="@string/add_heads_up_blacklist_summary"
+            android:persistent="false" />
+        <org.tipsy.martysplace.preference.ScrollAppsViewPreference
+            android:key="blacklist_apps_list_scroller"
+            android:persistent="false"
+            android:selectable="false" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
