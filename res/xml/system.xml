@@ -58,6 +58,18 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:title="@string/notification_category"
+        android:key="noti_category"
+        settings:allowDividerAbove="true" >
+
+        <Preference
+            android:key="notifications"
+            android:title="@string/heads_up"
+            android:summary="@string/heads_up_summary"
+            android:fragment="org.tipsy.martysplace.fragments.system.Notifications" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/sensor_category"
         android:key="sensors_category"
         settings:allowDividerAbove="true" >
