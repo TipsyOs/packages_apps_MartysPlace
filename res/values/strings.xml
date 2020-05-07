@@ -389,4 +389,8 @@
     <string name="heads_up_blacklist_title">Blacklist</string>
     <string name="add_heads_up_blacklist_summary">Disable heads up for these applications</string>
 
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Data disabled icon</string>
+    <string name="data_disabled_icon_summary">Display a cross sign next to signal bar when data is disabled</string>
+
 </resources>
